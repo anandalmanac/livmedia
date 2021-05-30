@@ -205,10 +205,12 @@ body {
     top: 120;
   }
   .home-content h1 {
+    margin-top: 50px;
     letter-spacing: 1;
   }
   .home-button a {
     font-size: 12px;
+    font-weight: 600 !important;
   }
 }
 /*about*/
