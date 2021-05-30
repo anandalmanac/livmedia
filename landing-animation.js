@@ -1,5 +1,5 @@
 var tl=gsap.timeline();
-tl.from('#dron',{y:'30vh',x:'50vw',duration:4,delay:8})
+tl.from('#dron',{y:'30vh',x:'50vw',duration:4,delay:4})
 tl.from('.home-content h1',{opacity:0,duration:6},'=-4')
 tl.from("#cam-3",{y:'-100%',duration:1},'=-2')
 tl.from("#cam-2",{y:'100%',duration:1})
@@ -79,7 +79,7 @@ preloaderFadeOutTime = 500;
 function hidePreloader(){
 
 var preloader = $('.spinner-wrapper');
-preloader.delay(8000).fadeOut(preloaderFadeOutTime);
+preloader.delay(4000).fadeOut(preloaderFadeOutTime);
 }
 hidePreloader();
 document.querySelector('.body-wrapper').style.display='block';
@@ -100,6 +100,6 @@ $(".not-home").show();
 document.querySelector('.body-wrapper').style.height='auto';
 $("#navbar").show();
 //document.querySelector('.body-wrapper').style.height='auto';
-}, 18000);
+}, 12000);
 });
 
